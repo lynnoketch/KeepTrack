@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                         try {
                             JSONObject obj = new JSONObject(response);
 
-                            JSONArray unitArray = obj.getJSONArray("units");
+                            JSONArray unitArray = obj.getJSONArray("unit");
 
                             for (int i = 0; i < unitArray.length(); i++) {
                                 JSONObject UnitObject = unitArray.getJSONObject(i);
